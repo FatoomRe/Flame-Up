@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class Introscreen extends StatelessWidget {
-  const Introscreen({Key? key}) : super(key: key);
+  const Introscreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Text('Welcome to the intro screen!'),
       ),
